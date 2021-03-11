@@ -1,0 +1,375 @@
+
+
+*{ 
+     list-style: none;
+     padding: 0px;
+     margin: 0px;
+     text-decoration: none;
+}
+
+
+
+
+
+/* helper clases start here */
+body {
+    padding: 0px;
+    margin: 0px;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    letter-spacing: 1px;
+}
+.container {
+    margin: 0 auto;
+    width: 85%;
+}
+.row {
+    display: flex;
+}
+.col {
+    display: inherit;
+    flex: 1;
+}
+.sec-sv {
+    padding: 100px 0px;
+}
+@media(max-width: 992px ){
+.row {
+ flex-direction: column;
+    }
+}
+/* Helper Classes end here*/
+
+
+
+
+
+
+/* //////////////////body start here/////////////// */
+body{
+     background-color: black;
+}
+/* //////////////////body end here/////////////// */
+
+
+
+
+
+
+
+
+
+/* //////////////////section one start here/////////////// */
+.secone-nav{
+padding-bottom: 70px;
+}
+.secone{
+display: flex;
+justify-content: space-around;
+color: black;
+margin-top: 70px;
+flex-wrap:wrap;
+margin-right: 90px;
+margin-left: 30px;
+padding-bottom: 100px;
+}
+.img-one{
+ padding-left: 90px;
+ padding-right: 90px;
+ text-align: center;
+ color: white;
+ font-size: 15px;
+}
+.main-btn-1 button{
+    background-color:orange;
+}
+.main-contectus{
+text-align: left;
+color: orange;
+letter-spacing: 3px;
+}
+.pera-1{
+text-align: left;
+color: white;
+}
+.main-btn-1{
+text-align: left;
+}
+
+@media(max-width: 892px ){
+    .secone{
+flex-direction: column;
+}
+.main-one{
+padding-bottom: 10px;
+}
+.secone-nav{
+text-align: center;
+padding: 0px;
+margin: 0px;
+ flex-wrap: wrap;
+}
+.slider-img-1{
+width: 400px;
+padding-bottom: 30px;
+position: relative;
+right: 30px;
+}
+.main-btn-1 button{
+background-color:orange;
+}
+.main-contectus{
+    text-align: left;
+    color: orange;
+    letter-spacing: 3px;
+    width: 300px;
+}
+.pera-1{
+    text-align: left;
+    color: white;
+     width: 370px;
+}
+.main-btn-1{
+   text-align: left;
+   padding-bottom: 70px;
+}
+}
+/* //////////////////section one end here/////////////// */
+
+
+
+
+
+
+
+
+
+/* //////////////////section two start here/////////////// */
+#sec-2-about-me{
+    background-color:black;
+    padding-top: 70px;
+    padding-bottom:100px;
+    color: white;
+}
+.sec-2-img-2{
+width: 500px;
+height: 460px;}
+#sec-2-aboutus{
+    text-align: left;
+    color: white; 
+}
+.pera-about-us{
+text-align: left;
+color: white;
+}
+@media(max-width: 992px ){
+.sec-2-img-2{
+width: 360px;
+height: 360px;}
+#sec-2-aboutus{
+text-align: left;
+padding-top: 40px;
+}
+.pera-about-us{
+text-align: left;
+flex-direction: column;
+width: 360px;
+}
+}
+/* //////////////////section two end here/////////////// */
+
+
+
+
+
+
+
+
+/* //////////////////section three start here/////////////// */
+#sec-3-quality{
+background-image: url(../images/Group\ 3.png);
+background-position: center;
+height: 255vh;
+}
+.quality-pera{
+text-align: left;
+color: white;
+position: relative;
+top: 400px;
+left: 140px;
+background-color: rgb(254 144 0);
+}
+@media(max-width: 992px ){
+.quality-pera{
+position: static;
+}
+}
+/* //////////////////section three end here/////////////// */
+
+
+
+
+
+
+/* //////////////////section four start here/////////////// */
+
+#sec-gallery{
+
+padding-bottom: 100px;
+}
+.pera-gellery{
+text-align: center;
+padding-top: 60px;
+color: white;
+}
+.sec-gallery{
+padding-bottom: 100px;
+flex-wrap: wrap;
+}
+.galari-img{
+width: 100px;
+padding: 70px 0px;
+}
+.galari-img img{
+flex-wrap: wrap;
+margin-right: 70px;
+width: 360px;
+margin-bottom: -100px;
+}
+
+@media(max-width: 992px ){
+.pera-gellery{
+text-align: center;
+padding-top: 60px;
+color: white;
+}
+.sec-gallery{
+padding-bottom: 100px;
+flex-wrap: wrap;
+}
+.galari-img{
+flex-wrap: wrap;
+}
+.galari-img img{
+flex-wrap: wrap;
+}
+}
+/* //////////////////section four end here/////////////// */
+
+
+
+
+
+
+/* //////////////////section five start here/////////////// */
+.sec-enjoy{
+background-image: url(../images/layer.png);
+height: 100vh;
+padding-top: 100px;
+}
+.enkoy{
+color: white;
+border: 8px solid orange;
+}
+@media(max-width: 992px ){
+.enkoy{
+width: 500px;
+}
+}
+/* //////////////////section five end here/////////////// */
+
+
+
+
+
+
+/* //////////////////section six start here/////////////// */
+.sec-menu{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.menu-img img{
+    width: 350px;
+}
+.pera-menu{
+color: white; 
+}
+/* //////////////////section six end here/////////////// */
+
+
+
+
+
+
+/* //////////////////section sevenstart here/////////////// */
+
+.sec-meal{
+background-color: orange;}
+.meal-img img{
+position: relative;
+top: 40px;
+}
+ .meal-pera {
+    padding-top: 100px;
+    color: white;
+}
+.meal-btn{
+    background-color: rgba(255, 166, 0, 0.328);
+    cursor: pointer;
+    border-color: red;
+    padding: 0px 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+.meal-btn:hover{
+background-color: orangered;
+border-radius: 8px;
+}
+.blacdot{
+    background-color: black;
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 100%;
+    height: 100px;
+    padding-left: 4.5px;
+}
+.blacdot {
+color: black;
+padding-top: 0px;
+padding-bottom: 80px;
+padding-top: 100px;
+padding-left: 4.5px;
+ 
+}
+@media(max-width: 992px ){
+.meal-pera{
+    flex-direction: column;
+}
+}
+/* //////////////////section seven end here/////////////// */
+
+
+
+
+
+
+
+/* ////////////////// footer start  here/////////////// */
+.food-love{
+position: relative;
+font-size: 30px;
+color: orange;
+top: 30px;
+}
+.footer-icons i{
+color: gainsboro;
+margin-left: 20px;
+padding-bottom: 70px;
+font-size: 30px;
+}
+/* //////////////////footer end here/////////////// */
